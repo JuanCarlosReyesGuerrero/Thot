@@ -1,0 +1,35 @@
+
+php artisan make.model Product -mc
+php artisan make:seeder ProducsTableSeeder
+
+php artisan make:seeder DepartmentsTableSeeder
+
+*******************
+Migraciones
+*******************
+php artisan migrate
+
+
+*******************
+Migraciones seeder
+*******************
+php artisan migrate:refresh --seed
+
+
+
+
+*******************
+Cambiar el nombre al namespace
+*******************
+php artisan app:name Thot
+
+
+
+
+
+
+
+https://laravel.com/docs/4.2/schema
+
+
+
